@@ -1,0 +1,91 @@
+navbar-brand {
+  border: 10px;
+}
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding-top: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+center {
+  text-align: center;
+}
+
+body {
+ background-color: #cccccc;
+}
+
+.back-image {
+  background-image: url("../images/Chicago/FullCity.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.back-text {
+  text-align: center;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.review-body{
+  text-align: center;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.review-text {
+  font-style: italic;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.review-author {
+  font-style: bold;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.section {
+ display: flex;
+}
+
+.aside {
+ flex: 2;
+ margin-top: 25px;
+}
+
+.article {
+ flex: 3;
+ margin-top: 100px;
+ margin-right: 25px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
