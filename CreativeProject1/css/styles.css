@@ -3,7 +3,7 @@ navbar-brand {
 }
 
 /* Image Grid */
-.portfolio {
+/* .portfolio {
   display: grid;
   grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
   grid-column-gap: 10px;
@@ -14,10 +14,15 @@ navbar-brand {
 .image img {
   width: 100%;
   height: 100%;
-}
+} */
 
 center {
   text-align: center;
+}
+
+h1 {
+  margin: 25px 50px 75px 100px;
+  color: red;
 }
 
 body {
@@ -25,7 +30,7 @@ body {
 }
 
 .back-image {
-  background-image: url("../images/Chicago/FullCity.jpg");
+  /* background-image: url("../images/Chicago/FullCity.jpg"); */
   background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -43,37 +48,18 @@ body {
   color: white;
 }
 
-.review-body{
-  text-align: center;
-  height: 100px;
-  margin-top: 50px;
-}
-
-.review-text {
-  font-style: italic;
-  font-size: 20px;
-  font-family: cursive;
-}
-
-.review-author {
-  font-style: bold;
-  font-size: 25px;
-  font-family: fantasy;
-}
-
 .section {
  display: flex;
 }
 
 .aside {
- flex: 2;
- margin-top: 25px;
+ flex: 1;
+ margin: 10px;
 }
 
 .article {
  flex: 3;
- margin-top: 100px;
- margin-right: 25px;
+ margin: 10px;
 }
 
 .footer {
