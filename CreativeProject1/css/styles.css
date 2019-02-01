@@ -2,27 +2,13 @@ navbar-brand {
   border: 10px;
 }
 
-/* Image Grid */
-/* .portfolio {
-  display: grid;
-  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  padding-top: 10px;
-}
-
-.image img {
-  width: 100%;
-  height: 100%;
-} */
-
 center {
   text-align: center;
 }
 
 h1 {
-  margin: 25px 50px 75px 100px;
-  color: red;
+  text-align: center;
+  margin-top: 10px;
 }
 
 body {
@@ -30,7 +16,7 @@ body {
 }
 
 .back-image {
-  /* background-image: url("../images/Chicago/FullCity.jpg"); */
+  background-image: url("../images/Soccer Field.jpg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -42,14 +28,68 @@ body {
 .back-text {
   text-align: center;
   position: absolute;
-  top: 54%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
+hr.thick {
+  border: 1;
+  width: 100%;
+  color: black;
+  background-color: black;
+  height: 2px;
+}
+
+hr.thin {
+  border: 1;
+  width: 100%;
+  color: black;
+  background-color: black;
+  height: .01px;
+}
+
+
 .section {
  display: flex;
+}
+
+.section-game {
+ display: flex;
+ margin: 10px;
+ text-align: center;
+}
+
+.section-title {
+ display: flex;
+ margin-top: 10px;
+ margin-right: 10px;
+ margin-left: 10px;
+ margin-bottom: -30px;
+ font-weight: bold;
+ font-size: 18px;
+ text-align: center;
+}
+
+.opponent {
+  flex: 1;
+}
+
+.date {
+  flex: 1;
+}
+
+.time {
+  flex: 1;
+}
+
+.location {
+  flex: 1;
+}
+
+.result {
+  flex: 1;
 }
 
 .aside {
@@ -72,6 +112,25 @@ body {
   text-align: center;
 }
 
+a.game-result {
+  color: black;
+  margin-top: -6px;
+}
+
+a.game-result:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a.source {
+  color: white;
+  margin: -10px;
+}
+
 a {
   color: white;
+}
+
+p.game-summary {
+  margin: 20px;
 }
